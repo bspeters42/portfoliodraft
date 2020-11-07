@@ -1,0 +1,122 @@
+
+            /* CHANGE THE SETTINGS FOR SKIP LOOK */
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+a.skip:focus{
+    top: 20px;
+    color: black;
+    text-decoration-style: solid;
+}
+
+
+
+*:focus{
+    border: 3px solid blue;
+}
+
+
+.nav_links{
+
+
+}
+
+.nav_item{
+    padding: 0 0 10px 0;
+
+}
+
+.nav_item a{
+    text-decoration: none;    
+
+}
+
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!! */
+body{
+    font-family: 'Gill Sans', 'sans-serif';
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 16pt;
+    /* background-image: url('...');   GOES HERE IF NEEDED */
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 1.0em;
+    text-align: left;
+    padding: 10px 0 5px 0;
+}
+
+p {
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color:lightblue;
+    color:#505050;
+    padding: 50 px;
+    text-align: left;
+}
+
+                /*   CSS FOR LARGE SCREENS - */
+
+/* @media screen and (min-width: 850px){ add revisions to above code here } */
+
+
+
+/*   CSS TO FOR REDUCED MOTION PREFERENCES - little iffy here */
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+
+    .skip a{
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    /*Turn off parallax -- copied this from hw 4? */
+    header{
+        background-attachment: initial;
+    }
+    #logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        animation-name: none;
+        animation-duration: none;
+    }
+  
+}
+
