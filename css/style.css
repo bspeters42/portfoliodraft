@@ -39,7 +39,9 @@ a.skip:focus{
 
 }
 
-
+img {
+    width: 300px;
+}
 
 
 
@@ -49,10 +51,11 @@ a.skip:focus{
 
 /* !!!!!!!!!!!!!!!! */
 body{
-    font-family: 'Gill Sans', 'sans-serif';
+    font-family: Helvetica, sans-serif;
     margin: 0 0 0 20px;
     padding: 0;
     font-size: 16pt;
+    line-height: 1.2em;
     /* background-image: url('...');   GOES HERE IF NEEDED */
 }
 
@@ -84,12 +87,25 @@ footer {
     background-color:lightblue;
     color:#505050;
     padding: 50 px;
+    margin-top: 20px;
     text-align: left;
 }
+footer p{
+    padding: 10px;
+}
+
+                /*   CSS FOR tablets SCREENS - */
+
+@media screen and (min-width: 450px){ add revisions to above code here }
+
+
+
+
+
 
                 /*   CSS FOR LARGE SCREENS - */
 
-/* @media screen and (min-width: 850px){ add revisions to above code here } */
+@media screen and (min-width: 800px){ add revisions to above code here }
 
 
 
