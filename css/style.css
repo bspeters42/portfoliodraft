@@ -23,16 +23,18 @@ a.skip:focus{
     border: 3px solid blue;
 }
 
-
-.nav_links{
-
-
-}
+.nav_menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+} 
 
 .nav_item{
-    padding: 0 0 10px 0;
-
+    padding: 20px;
 }
+
+
 
 .nav_item a{
     text-decoration: none;    
@@ -40,7 +42,7 @@ a.skip:focus{
 }
 
 img {
-    width: 100px;
+    width: 200px;
 }
 
 
@@ -52,7 +54,7 @@ img {
 /* !!!!!!!!!!!!!!!! */
 body{
     font-family: Helvetica, sans-serif;
-    margin: 0 0 0 20px;
+    margin: 0 15px 0 15px;
     padding: 0;
     font-size: 16pt;
     line-height: 1.2em;
